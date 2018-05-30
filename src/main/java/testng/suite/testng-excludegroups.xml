@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+    <!--order测试类-->
+    <test name="order">
+        <groups>
+            <run>
+                <exclude name="brokenTests" />
+                <include name="db-nosql" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testng.suite.TestDatabases"/>
+        </classes>
+    </test>
+</suite>

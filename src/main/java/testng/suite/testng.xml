@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+    <!--order测试类-->
+    <test name="order">
+        <classes>
+            <class name="testng.suite.TestConfig" />
+            <class name="testng.suite.TestOrder" />
+        </classes>
+    </test>
+    <!--database测试类-->
+    <test name="database">
+        <classes>
+            <class name="testng.suite.TestConfig" />
+            <class name="testng.suite.TestDatabases" />
+        </classes>
+    </test>
+</suite>

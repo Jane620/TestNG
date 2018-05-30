@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+    <!--order测试类-->
+    <test name="order">
+        <classes>
+            <class name="testng.suite.TestOrder" />
+                <methods>
+                    <include name="testUpdateOrder" />
+                    <exclude name="testFindOrder" />
+                </methods>
+        </classes>
+    </test>
+</suite>
