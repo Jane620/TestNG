@@ -74,5 +74,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-test:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-test:1.5.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
   </component>
 </module>
